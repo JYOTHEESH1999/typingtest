@@ -48,9 +48,10 @@ submitBtn.addEventListener("click", function(event) {
     }
 });
 resetBtn.addEventListener("click", function() {
+    clearInterval(x);
     resultEl.textContent = "";
     quoteInputEl.value = "";
-    clearInterval(x);
+    
 
     fetch(url, options)
         .then(function(response) {
