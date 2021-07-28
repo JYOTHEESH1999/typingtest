@@ -1,0 +1,50 @@
+
+.bg-con {
+    background-image: linear-gradient(to right, #acafb5, #7286a6);
+    height: 100vh;
+}
+
+.inner {
+    padding: 25px;
+}
+
+.h1 {
+    color: #690cb0;
+    font-size: 45px;
+    font-weight: bold;
+}
+
+.p {
+    color: #3e4c59;
+}
+
+.sm {
+    height: 70px;
+    width: 70px;
+}
+
+#timer {
+    margin-left: 40px;
+    font-size: 50px;
+    color: #323f4b;
+}
+
+.con {
+    background-color: #cbd2d9;
+    padding: 10px;
+    border-radius: 20px;
+    margin: 20px;
+}
+.res{
+  font-weight: bold;
+  font-family: Roboto;
+  color:#a6243e;
+  font-size: 20px;
+}
+#submitBtn {
+    background-color: #690cb0;
+}
+
+.spin {
+    visibility: hidden;
+}
